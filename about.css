@@ -1,0 +1,94 @@
+
+.about{
+    cursor:pointer;
+    background-color:#6B062D;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    align-items: center;
+
+}
+
+.main-nav
+{
+    
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+      display: inline-block;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.main-nav li.active a
+{
+    border: 1px solid white ;
+}
+.main-nav li a:hover
+{
+    border:1px solid white;
+}
+
+.about span{
+    display: block;
+    widows: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin:auto;
+    border-radius:50%;
+    font-size: 40px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    background-color: #4C0822;
+    border: 2px solid #4C0822;
+
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    transition:all .5s ease;
+}
+.about-item:hover span{
+    opacity: 1;
+    border: 2px solid #CC0039;
+    font-size: 42px;
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform:  scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+}
+.about-item:hover h2{
+    opacity: 1;
+    -webkit-transform: scale(1.1,1.1) ;
+    -moz-transform:  scale(1.1,1.1) ;
+    -o-transform: scale(1.1,1.1) ;
+    transform: scall(1.1,1.1) ;
+}
+.abot .lead{
+    color: #CC0039;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
